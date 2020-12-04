@@ -1,0 +1,118 @@
+section {
+	background-color: #f0f0f0;
+	padding: 20px 0 40px
+}
+
+section .content .wrapper {
+	min-height: 400px
+}
+
+section .content .image {
+	height: 400px
+}
+
+section .content .image img {
+	min-width: 100%;
+	min-height: 100%
+}
+
+section .content .swiper-container {
+	height: 400px
+}
+
+section .content .swiper-container .swiper-wrapper {
+	width: 100%;
+	height: 100%
+}
+
+section .content .swiper-container .swiper-pagination-bullet {
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5)
+}
+
+section .content .swiper-container .swiper-pagination-bullet-active {
+	background: rgba(255,255,255,0.8)
+}
+
+section .bottom {
+	margin-top: 20px;
+	box-sizing: border-box
+}
+
+section .bottom .news-list {
+	box-sizing: border-box;
+	padding: 0 30px;
+	background: white
+}
+
+section .bottom .news-list .news {
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+
+section .bottom .news-list .news .time {
+	font-size: 14px;
+	line-height: 14px;
+	color: #999
+}
+
+section .bottom .news-list .news .title {
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #0b88d8
+}
+
+section .bottom .news-list .news .des {
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+section .bottom .msg-wrapper {
+	background: white;
+	height: 400px;
+	padding: 60px 20px
+}
+
+section .bottom .msg-wrapper .msg-list {
+	max-height: 95%;
+	overflow: hidden
+}
+
+section .bottom .msg-wrapper .msg-list .msg {
+	overflow: auto;
+	width: 100%
+}
+
+section .bottom .msg-wrapper .msg-list .msg .text {
+	padding: 14px 5px;
+	background: #fafafa;
+	border: 1px solid #d2dbe5
+}
+
+section .bottom .msg-wrapper .msg-list .msg .time {
+	float: right;
+	position: relative
+}
+
+section .bottom .msg-wrapper .msg-list .msg .time img {
+	position: absolute;
+	right: 29%;
+	top: -55%
+}
+
+section .bottom .msg-wrapper .msg-from {
+	font-size: 16px;
+	padding: 10px 0;
+	color: #0b88d8;
+	border-bottom: 1px solid #e0e0e0
+}
+

@@ -1,0 +1,128 @@
+
+.navbar {
+	background: white;
+	border: none
+}
+
+.navbar .active>a {
+	background-color: #0b88d8 !important;
+	color: white !important
+}
+
+.navbar .navbar-brand {
+	vertical-align: top;
+	width: 180px;
+	line-height: 50px;
+	text-align: center
+}
+
+.navbar .navbar-brand img {
+	display: inline-block;
+	transform: translateY(-15px)
+}
+
+.navbar .top-blue {
+	box-sizing: border-box
+}
+
+.navbar .top-blue:hover {
+	border-top: 4px solid #0b88d8
+}
+
+.navbar .input-search {
+	display: inline-block;
+	width: 240px;
+	height: 34px;
+	border-radius: 4px;
+	background: #f0f0f0;
+	line-height: 34px;
+	margin-right: 10px
+}
+
+.navbar .input-search input {
+	outline: none;
+	line-height: 16px;
+	background: #f0f0f0;
+	box-shadow: none;
+	border: none
+}
+
+.navbar .input-search img {
+	display: inline-block;
+	margin: 0 10px
+}
+
+.navbar .bt-wrapper {
+	text-align: center;
+	margin: 8px 0
+}
+
+.navbar .bt-wrapper .donate {
+	float: right;
+	background: #ff8331;
+	width: 100px;
+	height: 32px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 32px
+}
+
+.navbar .bt-wrapper .donate:hover {
+	box-shadow: 0 0 6px 2px #ff8331
+}
+
+.navbar .bt-wrapper .donate:active {
+	color: #ff8331;
+	background: white
+}
+
+footer {
+	background: white;
+	padding-top: 40px
+}
+
+footer .foot-navs {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between
+}
+
+footer .foot-navs .nav-name {
+	font-size: 12px;
+	color: #333
+}
+
+footer .foot-navs .navs {
+	list-style-type: none;
+	margin-top: 15px;
+	padding: 0
+}
+
+footer .foot-navs .navs .navs-item {
+	margin-bottom: 10px
+}
+
+footer .foot-navs .navs .navs-item a {
+	color: #999;
+	font-size: 12px
+}
+
+footer .copy-right-wrapper .box {
+	padding: 5px;
+	height: 80px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	color: #999;
+	text-align: center
+}
+
+footer .copy-right-wrapper .copy-right {
+	margin-top: 20px;
+	text-align: center;
+	color: #999
+}
+
